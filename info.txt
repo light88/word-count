@@ -1,0 +1,3 @@
+gradlew run -Pargs="src/main/resources/Lyrics.txt 5"
+gradlew run -Pargs="F:/data/Lyrics.txt 1"
+gradlew test

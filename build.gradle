@@ -1,0 +1,23 @@
+group 'com.testtask.lohika'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin:'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+mainClassName = "com.testtask.lohika.Main"
+
+run {
+    if ( project.hasProperty('args') ) {
+        args project.args.split('\\s+')
+    }
+}

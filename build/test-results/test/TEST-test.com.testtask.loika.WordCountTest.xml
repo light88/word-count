@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.com.testtask.loika.WordCountTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-08-29T21:07:45" hostname="lenovo1" time="0.083">
+  <properties/>
+  <testcase name="runWithIncorrectNumberValue" classname="test.com.testtask.loika.WordCountTest" time="0.016"/>
+  <testcase name="runOrderEqualsCount" classname="test.com.testtask.loika.WordCountTest" time="0.047"/>
+  <testcase name="runWithIncorrectFilePath" classname="test.com.testtask.loika.WordCountTest" time="0.0"/>
+  <testcase name="runSimpleWordCount" classname="test.com.testtask.loika.WordCountTest" time="0.0"/>
+  <testcase name="runWithoutAllArgument" classname="test.com.testtask.loika.WordCountTest" time="0.0"/>
+  <testcase name="runLimit" classname="test.com.testtask.loika.WordCountTest" time="0.0"/>
+  <testcase name="runOrder" classname="test.com.testtask.loika.WordCountTest" time="0.015"/>
+  <testcase name="emptyRun" classname="test.com.testtask.loika.WordCountTest" time="0.001"/>
+  <testcase name="runZeroWordCount" classname="test.com.testtask.loika.WordCountTest" time="0.002"/>
+  <system-out><![CDATA[a=5
+c=5
+x=5
+y=5
+z=5
+test=4
+a=5
+c=5
+b=8
+a=5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
